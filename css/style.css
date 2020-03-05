@@ -13,6 +13,11 @@
   font-display: wrap; }
 
 .header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
   background-color: #131313;
   padding: 24px 0; }
   .header .menu {
@@ -36,7 +41,8 @@
   position: relative;
   background: #131313 url("../img/image-bg.png") no-repeat center/cover;
   height: 100vh;
-  color: #fff; }
+  color: #fff;
+  padding-top: 100px; }
   .hero__instagram {
     position: absolute;
     left: 0;
