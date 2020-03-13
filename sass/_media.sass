@@ -37,6 +37,8 @@
         &__text
             margin-left: 0           
 @media screen and ( max-width: 570px )
+    html
+        font-size: 14.2px
     .contacts
         &__phone
             margin-right: 0
@@ -47,11 +49,18 @@
     .title
         font-size: 1.64rem
     .hero
+        &__tittle
+            font-family: Yeseva One
+            font-style: normal
+            font-weight: normal
+            font-size: 23px
+            line-height: 132.83%
+            font-size: 23px
         &__scroll-down
             display: none
         &__content
-            max-width: 22.86rem
-            margin: auto
+            max-width: 27rem
+            left: 0
         &__text
             font-size: 1.29rem
             margin-bottom: 2.28rem
@@ -68,8 +77,10 @@
     .hero
         &__scroll-down
             display: none
-@media screen and ( max-width: 320px )
-     .contacts
+@media screen and ( max-width: 370px )
+    html
+        font-size: 11px
+    .contacts
         &__phone
             font-size: 10px
             color: $light
