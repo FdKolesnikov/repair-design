@@ -621,7 +621,8 @@ h2 {
     display: none; }
   .hero__content {
     max-width: 27rem;
-    left: 0; }
+    left: 0;
+    height: 60vh; }
   .hero__text {
     font-size: 1.29rem;
     margin-bottom: 2.28rem; }
@@ -635,6 +636,8 @@ h2 {
     font-size: 9px;
     color: #FFFFFF;
     text-decoration: none; }
+  .hero__content {
+    height: 70vh; }
   .hero__scroll-down {
     display: none; } }
 
