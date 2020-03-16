@@ -598,6 +598,10 @@ img {
   margin-bottom: 40px;
   margin-top: 22px; }
 
+.section-title__luxe {
+  display: block;
+  margin-left: 26px; }
+
 .card__text {
   position: relative;
   max-width: 23.6rem;
@@ -730,7 +734,7 @@ h2 {
 
 @media screen and (max-width: 570px) {
   html {
-    font-size: 14.2px; }
+    font-size: 11px; }
   .contacts__phone {
     margin-right: 0;
     color: #FFFFFF;
@@ -739,26 +743,28 @@ h2 {
     display: none; }
   .title {
     font-size: 1.64rem; }
-  .hero__tittle {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 132.83%;
-    font-size: 23px; }
-  .hero__scroll-down {
-    display: none; }
-  .hero__content {
-    max-width: 27rem;
-    left: 0;
-    height: 60vh; }
-  .hero__text {
-    font-size: 1.29rem;
-    margin-bottom: 2.28rem; }
-  .hero__button {
-    display: block;
-    min-width: 22.86rem;
-    margin-bottom: 1.85rem; } }
+  .hero {
+    height: 78vh; }
+    .hero__tittle {
+      font-family: Yeseva One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 23px;
+      line-height: 132.83%;
+      font-size: 23px; }
+    .hero__scroll-down {
+      display: none; }
+    .hero__content {
+      max-width: 27rem;
+      left: 0;
+      height: 60vh; }
+    .hero__text {
+      font-size: 1.29rem;
+      margin-bottom: 2.28rem; }
+    .hero__button {
+      display: block;
+      min-width: 22.86rem;
+      margin-bottom: 1.85rem; } }
 
 @media screen and (max-height: 520px) {
   .contacts__phone {
