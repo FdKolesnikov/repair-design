@@ -399,7 +399,7 @@ template {
   flex-basis: 30%; }
 
 .col-50 {
-  flex-basis: 50%; }
+  width: 50%; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -582,6 +582,49 @@ img {
   .title--primary {
     color: #E3B873; }
 
+.swiper-slide {
+  display: flex;
+  flex-wrap: wrap; }
+  .swiper-slide__text {
+    flex-basis: 50%;
+    margin-bottom: 2.42rem;
+    padding-bottom: 2rem; }
+  .swiper-slide__heading {
+    font-size: 1.285rem;
+    line-height: 1.78rem;
+    font-family: 'Yeseva One', cursive;
+    color: #E3B873;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0.42rem; }
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.3); }
+  .swiper-pagination-bullet-active {
+    background-color: #FFFFFF; }
+
+.swiper-button-prev, .swiper-button-next {
+  bottom: 0;
+  top: auto;
+  background: url("../img/arrow-prev.svg") no-repeat center;
+  background-size: 42px;
+  width: 42px;
+  height: 14px; }
+  .swiper-button-prev::after, .swiper-button-next::after {
+    display: none; }
+
+.swiper-button-prev {
+  left: 0;
+  background: url("../img/arrow-prev.svg") no-repeat center; }
+
+.swiper-button-next {
+  background: url("../img/arrow-next.svg") no-repeat center; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  width: auto;
+  bottom: 0; }
+
 .types__section-title {
   margin-bottom: 2.5rem;
   font-style: normal;
@@ -593,14 +636,30 @@ img {
   font-weight: normal; }
 
 .types__section-subtitle {
+  font-size: 20px;
+  line-height: 27px;
+  font-family: FuturaBookC;
+  font-style: normal;
+  font-weight: normal;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
   margin-top: 22px; }
 
 .section-title__luxe {
+  font-family: FuturaBookC;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
   display: block;
   margin-left: 26px; }
+
+.section-subtitle__heading {
+  font-size: 20px;
+  font-family: FuturaBookC;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px; }
 
 .card__text {
   position: relative;
@@ -641,6 +700,9 @@ img {
   padding: 1.214rem 2.6rem; }
 
 h2 {
+  font-weight: normal; }
+
+h3 {
   font-weight: normal; }
 
 .modal {
