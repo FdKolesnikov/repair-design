@@ -375,7 +375,8 @@ template {
 
 .policy__label {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.142rem; }
   .policy__label::before {
     content: '';
     width: 18px;
@@ -384,6 +385,8 @@ template {
     border-radius: 1px;
     cursor: pointer;
     margin-right: 0.64rem; }
+  .policy__label--center {
+    justify-content: center; }
 
 .container {
   width: 85%;
@@ -728,49 +731,87 @@ img {
   font-weight: normal;
   line-height: 27px; }
 
-.card__text {
-  position: relative;
-  max-width: 23.6rem;
-  margin: 0 auto;
-  padding: 1.79rem 2.14rem;
-  margin-top: -9.3rem;
-  background-color: #fff;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03); }
-
-.card__title {
-  font-family: 'Yeseva One', cursive;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.29rem;
-  margin-top: 0;
-  margin-bottom: 0.7rem; }
-
-.card__list {
-  padding: 0 0 0 1rem;
-  margin: 0;
-  font-size: 1.07rem;
-  line-height: 1.79rem;
-  color: #959595;
-  margin-bottom: 2.5rem; }
-
-.card__pricetag {
-  left: 0;
-  bottom: -1.79rem;
-  position: absolute;
-  font-size: 1.29rem;
-  font-family: 'Yeseva One', cursive;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: uppercase;
-  background-color: #E3B873;
-  color: #FFFFFF;
-  padding: 1.214rem 2.6rem; }
+.card {
+  padding-bottom: 20rem; }
+  .card__text {
+    position: relative;
+    max-width: 23.6rem;
+    margin: 0 auto;
+    padding: 1.79rem 2.14rem;
+    margin-top: -9.3rem;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03); }
+  .card__title {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.29rem;
+    margin-top: 0;
+    margin-bottom: 0.7rem; }
+  .card__list {
+    padding: 0 0 0 1rem;
+    margin: 0;
+    font-size: 1.07rem;
+    line-height: 1.79rem;
+    color: #959595;
+    margin-bottom: 2.5rem; }
+  .card__pricetag {
+    left: 0;
+    bottom: -1.79rem;
+    position: absolute;
+    font-size: 1.29rem;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: #E3B873;
+    color: #FFFFFF;
+    padding: 1.214rem 2.6rem; }
 
 h2 {
   font-weight: normal; }
 
 h3 {
   font-weight: normal; }
+
+.footer {
+  background: #131313 url("../img/footer-bg.jpg") center no-repeat;
+  padding-top: 3rem; }
+  .footer__wrap {
+    background-color: #181818;
+    max-width: 53.87rem;
+    margin: auto;
+    padding: 2.5rem;
+    margin-top: -20rem;
+    margin-bottom: 3.714rem; }
+  .footer__title {
+    text-transform: uppercase;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    font-size: 1.428rem;
+    text-align: center;
+    margin-bottom: 3.214rem; }
+  .footer__form {
+    display: flex;
+    flex-wrap: wrap; }
+  .footer__input-group {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-bottom: 2rem; }
+    .footer__input-group--full-width {
+      flex-basis: 100%; }
+  .footer__policy {
+    flex-basis: 100%;
+    margin-bottom: 2rem; }
+  .footer__button {
+    margin: auto;
+    padding: 18px 61px; }
+  .footer__menu {
+    background-color: #131313;
+    padding: 4.285rem 0; }
+  .footer__map {
+    margin-bottom: 4rem; }
 
 .modal {
   opacity: 0;
